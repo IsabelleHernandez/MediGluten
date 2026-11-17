@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medication Results</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+
+<body>
+
+    <header class="site-header">
+        <h1>MediGluten</h1>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="search.html">Search Medicines</a>
+            <a href="saved.html">Saved Medicines</a>
+        </nav>
+    </header>
+
+    <main class="page-container">
+
+        <h2>Medication Information</h2>
+
+        <div id="medicineDetails"></div>
+
+        <button id="saveMedicineButton" type="button">
+            Save Medication
+        </button>
+
+        <p id="saveMessage"></p>
+
+        <a href="search.html">Back to Search</a>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="../js/supabase.js"></script>
+    <script src="../js/auth-guard.js"></script>
+    <script src="../js/results.js"></script>
+
+</body>
+</html>
