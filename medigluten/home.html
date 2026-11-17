@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediGluten Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+
+<body>
+
+    <header class="site-header">
+        <h1>MediGluten</h1>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="search.html">Search Medicines</a>
+            <a href="saved.html">Saved Medicines</a>
+        </nav>
+    </header>
+
+    <main class="page-container">
+
+        <h2>Welcome to MediGluten!</h2>
+
+        <p>
+            Search medications and review available ingredient
+            information to help identify potential gluten concerns.
+        </p>
+
+        <p id="userEmail"></p>
+
+        <a class="main-button" href="search.html">
+            Search Medications
+        </a>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="../js/supabase.js"></script>
+    <script src="../js/auth-guard.js"></script>
+    <script src="../js/home.js"></script>
+
+</body>
+</html>
