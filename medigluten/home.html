@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="Medglu.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediGluten Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+    
+
+
+
+<body>
+
+    <header class="site-header">
+        <img src="logo.png" alt="MediGluten logo" class="login-logo">
+        <h1>MediGluten</h1>
+        
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="search.html">Search Medicines</a>
+            <a href="saved.html">Saved Medicines</a>
+        </nav>
+    </header>
+        <a href="login.html">
+            <button type="button" class="login-user">
+                <i class="fa-regular fa-circle-user"></i>
+                <h2>Login / Register</h2>
+            </button>
+        </a>
+    <main class="page-container">
+        <h3>Welcome to MediGluten!</h2>
+
+        <p>
+            Search medications and review available ingredient
+            information to help identify potential gluten concerns.
+        </p>
+
+        <p id="userEmail"></p>
+
+        <a class="main-button" href="search.html">
+            Search Medications
+        </a>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="../js/supabase.js"></script>
+    <script src="../js/auth-guard.js"></script>
+    <script src="../js/home.js"></script>
+
+</body>
+</html>
